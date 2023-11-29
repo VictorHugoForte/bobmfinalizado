@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo_grande.png" type="image/x-icon">
+    <title>observações</title>
+    <link rel="stylesheet" href="observacao.css">
+</head>
+<body>
+
+    <br><br><br><br><br><br><br>
+    <center>
+    <title>Adicionar Observações importantes</title>
+</head>
+<body>
+    <h1>ADICIONAR INFORMAÇOES IMPORTAMTES</h1>
+    
+    <input type="text" id="observacaoInput" placeholder="Digite sua observação">
+    <button onclick="adicionarObservacao()">Adicionar</button>
+    <a href="termoderecusa.html">
+    <button>VOLTAR</button></a>
+    <ul id="listaObservacoes">
+    </ul>
+ 
+    <script>
+        function adicionarObservacao() {
+            var input = document.getElementById("observacaoInput");
+            var observacao = input.value;
+            if (observacao.trim() !== "") {
+                var lista = document.getElementById("listaObservacoes");
+                var item = document.createElement("li");
+                item.textContent = observacao;
+                lista.appendChild(item);
+                input.value = ""; // Limpar o campo de entrada
+            }
+        }
+    </script>
+
+
+<div class="loader"></div>
+
+
+    </center>
+
+    <div class="blue">
+
+    </div>
+</body>
+</html>

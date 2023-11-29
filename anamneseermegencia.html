@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOMBEIROS</title>
+    <link rel="stylesheet" href="anamneseermegencia.css">
+    <link rel="shortcut icon" href="logo_grande.png" type="image/x-icon">
+
+    </head>
+ 
+<body>
+    <div class="box">
+        <form action="anamneseermegencia.php" method="post">
+            <fieldset>
+                <legend><b>NOAR</b></legend>
+                <br>
+                <h3><P>ANAMNESE DA EMERGÊNCIA MÉDICA</P></h3>
+                <BR>
+                    <h5><P>OQUE ACONTECEU(SINAIS SIMTOMAS)</P></h5>    
+                <div class="caixatexto">
+                    <input type="text" name="oque" id="nome" class="minititulo">
+                    <label for="nome"></label>
+                </div>
+                <h5>ACONTECEU OUTRAS VEZES</h5>
+                    <input type="radio" id="condução" name="outrasves" value="condução">
+                    <label for="condução">SIM</label><input type="radio" id="condução" name="OUTRAS" value="condução">
+                    <label for="condução">NÃO</label>
+                    <BR>
+                    <BR>
+                <h5><P>A QUANTO TEMPO ACONTECEU ISSO?</P></h5>    
+                    <div class="caixatexto">
+                    <input type="text" name="oqueaconteceu" id="nome" class="minititulo">
+                     <label for="nome"></label>
+                    </div>
+                <h5>POSSUI ALGUM PLOBLEMA DE SAÚDE</h5>
+                    <input type="radio" id="condução" name="problema" value="condução">
+                    <label for="condução">SIM</label><input type="radio" id="condução" name="PROBLEMA" value="condução">
+                    <label for="condução">NÃO</label>
+                    <BR>
+                    <BR>
+                <h5><P>QUAIS</P></h5>    
+                    <div class="caixatexto">
+                    <input type="text" name="quais" id="nome" class="minititulo">
+                    <label for="nome"></label>
+                    </div>
+                <h5>ALERGICO A ALGUMA COISA?</h5>
+                    <input type="radio" id="condução" name="alergico" value="condução">
+                    <label for="condução">SIM</label><input type="radio" id="condução" name="ALERGICO" value="condução">
+                    <label for="condução">NÃO</label>
+                    <BR>
+                    <BR>
+                <h5><P>SE SIM,ESPECIFIQUE</P></h5>    
+                    <div class="caixatexto">
+                    <input type="text" name="especifique" id="nome" class="minititulo">
+                    <label for="nome"></label> 
+                <h5>INGERIU ALIMENTO OU LIQUEDOS > 6 HORAS</h5>
+                <input type="radio" id="condução" name="liquidos" value="condução">
+                    <label for="condução">SIM</label><input type="radio" id="condução" name="ALIMENTOS" value="condução">
+                    <label for="condução">NÃO</label>
+                    <BR>
+                    <BR>
+                <h5>QUE HORAS?</h5>        
+                <input type="time" id="condução" name="BEBE" value="condução">
+                    <BR>
+                                   
+                <br>
+
+          
+            <input type="submit" class="inpt" value="CADASTRAR">
+        </form>
+    </div>
+</body>
+</html>

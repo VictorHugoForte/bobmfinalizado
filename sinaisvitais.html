@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOMBEIROS</title>
+    <link rel="shortcut icon" href="logo_grande.png" type="image/x-icon">
+    <link rel="stylesheet" href="sinaisvitais.css">
+    </head>
+
+<body>
+    <div class="box">
+        <form action="sinaisvitais.php" method="post">
+            <fieldset>
+                <legend><b>SINAIS VITAÍS</b></legend>
+                <br>
+                <div class="caixatexto">
+                    <input type="text" name="pressaoarterial" id="nome" class="minititulo">
+                    <label for="nome">Pressão Arterial</label>
+                </div>
+                <BR><BR>
+                <div class="caixatexto">
+                    <input type="text" name="pulso" id="nome" class="minititulo">
+                    <label for="nome">Pulso</label>
+                </div> 
+                <BR><BR>
+  
+                <div class="caixatexto">
+                    <input type="text" name="respiracao" id="nome" class="minititulo">
+                    <label for="nome">Respiração</label>
+                </div> 
+                <BR><BR>
+      
+                <div class="caixatexto">
+                    <input type="text" name="htg" id="nome" class="minititulo">
+                    <label for="nome">HTG</label>
+                </div>
+                <BR>
+
+                <P>Sinais Vitais</P>  
+               <input type="checkbox" id="sinal1" name="sinal1" value="sinal1">
+                    <label for="checkbox">Anormal</label>
+                <input type="checkbox" id="sinal2" name="sinal2" value="sinal2">
+                    <label for="checkbox">Normal</label>
+                    <BR><BR><BR><BR><BR><BR><BR><BR>
+
+
+                          <input type="submit" class="inpt" value="CADASTRAR">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemas Encontrados Suspeitos</title>
+    <link rel="shortcut icon" href="logo_grande.png" type="image/x-icon">
+    <link rel="stylesheet" href="problemas.css">
+    </head>
+
+<body>
+    <div class="box">
+        <form action="problemas.php" method="post">
+            <fieldset>
+                <legend><b>Problemas Encontrados Suspeitos</b></legend>
+                <br>
+                
+  
+                <legend>Selecione as opcões:</legend>
+                <br>
+               <div class="linha">
+            
+           <br> 
+           <div class="linha">
+                <legend>RESPIRATÓRIO:</legend>
+                 <br>
+                 <input type="checkbox" id="respiratório" name="opoc">
+                 <label type="checkbox" for="respiratório">OPOC</label>
+                 <input type="checkbox" id="respiratório" name="inalaçãofumaca">
+                 <label for="respiratório">INALAÇÃO DE FUMAÇA</label>
+                 
+                </div>
+                <br>
+                <div class="linha">
+                    <legend>DIABETES:</legend>
+                   
+                    <input type="checkbox" id="diabetes" name="hiperglicemia">
+                    <label type="checkbox" for="diabetes">HIPERGLICEMIA</label>
+                    <input type="checkbox" id="diabetes" name="hipoglicemia">
+                    <label for="diabetes">HIPOGLICERMIA</label>
+                   <br>
+               </div>
+
+               <div class="linha">
+                <input type="checkbox" id="outros" name="outros">
+                <label for="outros">OUTROS</label>
+              </div>
+              <div class="caixatexto">
+                <input type="text" name="nome" id="nome" class="minititulo">
+                
+            </div>
+            <br> 
+            <div class="linha">
+                <legend>OBSTÉTRICO:</legend>
+                 <br>
+                 <input type="checkbox" id="obstétrico" name="partoobstetrico">
+                 <label type="checkbox" for="obstétrico">PARTO OBSTÉTRICO</label>
+                 <input type="checkbox" id="obstétrico" name="gestante">
+                 <label for="obstétrico">GESTANTE</label>
+                 <input type="checkbox" id="obstétrico" name="hemorexcessiva">
+                 <label for="obstétrico">HEMOR. EXCESSIVA</label>
+                </div>
+                <br> 
+                <div class="linha">
+                    <legend>TRANSPORTE:</legend>
+                 <br>
+                 <input type="checkbox" id="transporte" name="aereo">
+                 <label type="checkbox" for="transporte">AÉREO</label>
+                 <br>
+                 <input type="checkbox" id="transporte" name="clinico">
+                 <label for="transporte">CLÍNICO</label>
+                 <br>
+                 <input type="checkbox" id="transporte" name="emergencial">
+                 <label for="transporte">EMERGENCIAL</label>
+                 <br>
+                 <input type="checkbox" id="transporte" name="postrauma">
+                 <label for="transporte">PÓS-TRAUMA</label>
+                 <br>
+                 <input type="checkbox" id="transporte" name="samu">
+                 <label for="transporte">SAMU</label>
+                 <br>
+                 <input type="checkbox" id="transporte" name="semremocao">
+                 <label for="transporte">SEM REMOÇÃO</label>
+                 <br>
+                 <div class="linha">
+                    <input type="checkbox" id="outros" name="outros">
+                    <label for="outros">OUTROS</label>
+                  </div>
+                  <div class="caixatexto">
+                    <input type="text" name="nome" id="nome" class="minititulo">
+                    
+                </div>
+
+
+                </div>
+            <br>
+
+
+            <input type="submit" class="inpt" value="CADASTRAR">
+
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

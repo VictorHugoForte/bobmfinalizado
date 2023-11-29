@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo_grande.png" type="image/x-icon">
+    <title>Bombeiros voluntários</title>
+</head>
+
+<style>
+  table {
+          border-collapse: collapse;
+          color: rgb(255, 255, 255);
+        }
+        
+        table, th, td {
+          border: 1px solid rgb(252, 255, 72);
+          padding: 5px;
+        }
+
+        body{
+        background-color: rgb(0, 51, 218);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .inpt
+    {/*CAMPOS DO LOGIN (NOME DO USUARIO E SENHA)*/
+background-color:#cfef00; 
+margin-top: 10px;
+border:  none;
+height: 50px;
+outline: none;
+border-radius: 8px;
+color: rgb(13, 1, 182);
+justify-items: center;
+display: flex;
+    }
+</style>
+
+
+<body>
+
+
+
+    <center>
+       <h1 style="color: azure;">AVALIAÇÃO DO PACIENTE 
+           <BR>(GLASGOW)</h1>
+    
+ <h2 style="color: rgb(223, 226, 48);">
+    nivel de consciência
+ </h2>
+
+</center>
+<div class="principal">
+    
+    
+ 
+    </head>
+    <body >
+    
+      <table>
+        <tr>
+          <th></th>
+          <th style="color: rgb(238, 255, 0);">MAIORES DE 5 ANOS</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="checkbox" id="checkboxA">ESPONTANÊA</td>
+        </tr>
+        <tr>
+          <td style="color: rgb(238, 255, 0);">ABERTURA OCULAR</td>
+          <td><input type="checkbox" id="checkboxA">COMANDO VERBAL</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td ><input type="checkbox" id="checkboxA">ESTÍMULO DOLOROSO</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="NENHUMA" id="checkboxA">NENHUMA</td>
+          </tr> 
+
+        </table>
+
+        <form action="maior5.php" method="post">
+            <table>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="ORIENTADO" id="checkboxA">ORIENTADO</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="CONFUSO" id="checkboxA">CONFUSO</td>
+                </tr>
+                <tr>
+                    <td style="color: rgb(238, 255, 0);">RESPOSTA VERBAL</td>
+                    <td><input type="checkbox" name="PALAVRASINAPROPIADAS" id="checkboxA">PALAVRAS INAPROPIADAS</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="PALAVRASINCOMPREENSIVEIS" id="checkboxA">PALAVRAS INCOMPREENSÍVEIS</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="NENHUMA" id="checkboxA">NENHUMA</td>
+                </tr>
+            </table>
+        
+            <table>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="OBEDECECOMANDOS" id="checkboxA">OBEDECE COMANDOS</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="LOCALIZADORDOR" id="checkboxA">LOCALIZA DOR</td>
+                </tr>
+                <tr>
+                    <td style="color: rgb(238, 255, 0);">RESPOSTA MOTORA</td>
+                    <td><input type="checkbox" name="MOVIMENTODERETIRADA" id="checkboxA">MOVIMENTO DE RETIRADA</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="FLEXAOANORMAL" id="checkboxA">FLEXÃO ANORMAL</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="EXTENSAOANORMAL" id="checkboxA">EXTENSÃO ANORMAL</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="NENHUMARESPOSTAMOTORA" id="checkboxA">NENHUMA</td>
+                </tr>
+            </table>            
+        
+        
+                <input type="submit" class="inpt" value="ENVIAR"></form>
+
+    
+
+
+             
+    
+    
+</div>
+
+
+</body>
+</html>

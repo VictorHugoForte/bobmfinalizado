@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo_grande.png" type="image/x-icon">
+    <title>Bombeiros voluntários</title>
+</head>
+<style>
+  table {
+          border-collapse: collapse;
+          color: rgb(255, 255, 255);
+        }
+        
+        table, th, td {
+          border: 1px solid rgb(252, 255, 72);
+          padding: 5px;
+        }
+
+        body{
+          background-color: rgb(13, 44, 216);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .inpt
+    {/*CAMPOS DO LOGIN (NOME DO USUARIO E SENHA)*/
+        background-color:#cfef00; 
+        margin-top: 10px;
+        border:  none;
+        height: 50px;
+        outline: none;
+        border-radius: 8px;
+        color: rgb(13, 1, 182);
+        justify-items: center;
+        display: flex;
+   }
+                
+</style>
+<body>
+
+    <center>
+     
+       <h1 style="color: azure;">AVALIAÇÃO DO PACIENTE 
+           <BR>(GLASGOW)</h1 >
+    
+ <h2 style="color: rgb(223, 226, 48);">
+    nivel de consciência
+ </h2>
+
+</center>
+<div class="principal">
+  <form action="menor5.php" method="post">
+
+    </head>
+    <body>
+    
+      <table>
+        <tr>
+            <th></th>
+            <th style="color: rgb(238, 255, 0);">MENORES DE 5 ANOS</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="ESPONTANEA" id="checkboxA">ESPONTANÊA</td>
+        </tr>
+        <tr>
+            <td style="color: rgb(251, 255, 0);">ABERTURA OCULAR  </td>
+            <td><input type="checkbox" name="COMANDOVERBAL" id="checkboxA">COMANDO VERBAL</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="ESTIMULODOLOROSO" id="checkboxA">ESTÍMULO DOLOROSO</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="NENHUMA" id="checkboxA">NENHUMA</td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="PALAVRASEFRASESAPROPIADAS" id="checkboxA"> PALAVRAS E FRASES APROPIADAS</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="PALAVRASINAPROPIADAS" id="checkboxA"> PALAVRAS INAPROPIADAS</td>
+        </tr>
+        <tr>
+            <td style="color: rgb(251, 255, 0);">RESPOSTA VERBAL</td>
+            <td><input type="checkbox" name="CHOROPERSISTENTEOUGRITOS" id="checkboxA"> CHORO PERSISTENTE OU GRITOS</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="SONSINCOMPREENSIVEIS" id="checkboxA"> SONS INCOMPREENSÍVEIS</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="NENHUMARESPOSTAVERBAL" id="checkboxA"> NENHUMA RESPOSTA VERBAL</td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="OBECEPRONTAMENTE" id="checkboxA"> OBEDECE PRONTAMENTE</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="LOCALIZADORDOURESTIMULOTATIL" id="checkboxA"> LOCALIZA DOR OU ESTÍMULO TÁTIL</td>
+        </tr>
+        <tr>
+            <td style="color: rgb(251, 255, 0);">RESPOSTA MOTORA</td>
+            <td><input type="checkbox" name="MOVIMENTODERETIRADODESEGMENTOESTIMULADO" id="checkboxA"> MOVIMENTO DE RETIRADA DO SEGMENTO ESTIMULADO</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="FLEXAOANORMALDECORTICACAO" id="checkboxA"> FLEXÃO ANORMAL (DECORTICAÇÃO)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="EXTENSAOANORMALDECEREBRACAO" id="checkboxA"> EXTENSÃO ANORMAL (DECEREBRAÇÃO)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="AUSENCIAPARALISIAFLACIDAHIPOTONIA" id="checkboxA"> AUSÊNCIA (PARALISIA FLÁCIDA, HIPOTONIA)</td>
+        </tr>
+            
+
+    </table>
+    
+</div>
+
+
+  <input type="submit" class="inpt" value="ENVIAR"></form>
+
+
+</body>
+</html>

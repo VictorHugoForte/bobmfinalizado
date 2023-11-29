@@ -1,0 +1,90 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(12, 27, 161);
+}
+.box{ 
+    position: absolute;
+    background-color: rgb(13, 44, 216);
+    padding: 15px;
+    color: aliceblue;
+    }
+    fieldset{
+        border: 3px solid rgb(226, 241, 16);
+    }
+    legend
+    {
+      border: 1px solid rgb(13, 44, 216);
+      padding: 10px;
+      /*text-align: center;*/   /*se quiser alinhar o titulo*/
+      background-color: rgb(226, 241, 16);
+      border-radius: 5px;
+      color: rgb(13, 44, 216);
+    }
+    .caixatexto{
+        position: relative;
+    }
+    .minititulo{
+        background: none;
+        border: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        color: white;
+        font-size: 15px;
+        width: 100%;
+        letter-spacing: 2px;  /*espasamento de letras*/
+    }
+    
+      
+   
+
+    
+
+    button {
+        cursor: pointer;
+        font-weight: 700;
+        font-family: Helvetica,"sans-serif";
+        transition: all .2s;
+        padding: 10px 20px;
+        border-radius: 100px;
+        background: #cfef00;
+        border: 1px solid transparent;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+      }
+      
+      button:hover {
+        background: #c4e201;
+      }
+      
+      button > svg {
+        width: 34px;
+        margin-left: 10px;
+        transition: transform .3s ease-in-out;
+      }
+      
+      button:hover svg {
+        transform: translateX(5px);
+      }
+      
+      button:active {
+        transform: scale(0.95);
+      }
+
+      .botao{
+        background-color: red;
+      }
+      .inpt
+      {/*CAMPOS DO LOGIN (NOME DO USUARIO E SENHA)*/
+background-color:#cfef00; 
+margin-top: 10px;
+border:  none;
+height: 50px;
+outline: none;
+border-radius: 8px;
+color: rgb(13, 1, 182);
+padding-left: 50px;
+justify-items: center;
+display: flex;
+
+}

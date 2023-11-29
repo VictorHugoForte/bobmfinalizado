@@ -1,0 +1,154 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: hidden;
+    background: linear-gradient(rgb(246, 255, 117)33.78%, rgba(241, 240, 163, 0.87) 101.93%);
+
+}
+
+.area-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    /*DIV ROSA A MAOIR */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, #102986 33.78%, rgba(42, 78, 212, 0.87) 101.93%);
+    border: 1px solid #c7c6c6;
+    background-color: #c3c3c3e8;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0.25, 0.70), 0px 4px 4px 4px rgba(0, 0, 0.25, 0.0), 0px 4px 4px 0px rgba(0, 0, 0.25, 0.50);
+    width: 455px;
+    height: 320px;
+    padding: 35px;
+    border-radius:20%;
+    
+
+}
+.btt
+{
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: #1F3173;
+    color: #d9d9d9;
+    font-family: "Audiowide", sans-serif;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(180deg, #87a1ff 33.78%, rgba(49, 73, 160, 0.87) 101.93%);
+    border: 1px solid #c7c6c6;
+    background-color: #c3c3c3e8;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0.25, 0.50), 0px 4px 4px 0px rgba(0, 0, 0.25, 0.50), 0px 4px 4px 0px rgba(0, 0, 0.25, 0.50);
+}
+.btt2
+{
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #d9d9d9;
+        font-family: "Audiowide", sans-serif;
+        width: 40%;
+        height: 50px;
+        border-radius: 80px;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 130px;
+        margin-top: 65px;
+        background: linear-gradient(180deg, #091850 33.78%, rgba(8, 24, 82, 0.87) 101.93%);
+        border: 1px solid #c7c6c6;
+        background-color: #c3c3c3e8;
+        box-shadow: 4px 4px 4px 0px rgba(0, 0, 0.25, 0.50), 0px 4px 4px 0px rgba(0, 0, 0.25, 0.50), 0px 4px 4px 0px rgba(0, 0, 0.25, 0.50)
+}
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input {
+    /*CAMPOS DO LOGIN (NOME DO USUARIO E SENHA)*/
+    background-color: rgb(13, 44, 216);
+    margin-top: 10px;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+    color: aliceblue;
+    padding-left: 10px;
+
+}
+
+
+.login img {
+    width: 250px;
+    height: auto;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+
+}
+
+.ENTRAR {
+    /*CAMPOS DO LOGIN (ENTRAR)*/
+    background-color: rgb(13, 44, 216);
+    margin-top: 10px;
+    /*ESPASAMENTO DO BOTÃO ENTRAR*/
+    border: none;
+    height: 45px;
+    /*ALTURA DO BOTÃO*/
+    outline: none;
+    border-radius: 8px;
+    /*BORDA DA DIV ENTRAR*/
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    /*CENTRALIZAR A PALAVRA ENTRAR*/
+    font-size: 15px;
+    /*ALTERAR TAMANHO DA FONTE*/
+
+}
+
+.ntc {
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    margin-top: 650px;
+    /*colocar div em baixo*/
+}
+
+.Admin {
+    position: absolute;
+    margin-top: -320px;
+    /*DEIXA A DIV MAIS PARA CIMA OU MAIS PARA BAIXO*/
+    left: 10px;
+    /*DEIXA A DIV MAIS PARA ESQUERDA OU PARA DIREITA*/
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 18px;
+    /*ALTERAR TAMANHO DA FONTE*/
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: rgb(226, 241, 16);
+    ;
+    color: rgb(13, 44, 216);
+    border-radius: 8px;
+    /*deixa borda redonda*/
+
+}
+
+.logo {
+    position: relative;
+    margin-top: -30%;
+    height: 200px;
+}

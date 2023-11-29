@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo_grande.png" type="image/x-icon">
+    <title>BOMBEIROS</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <div class="box">
+        <form action="indexcrud.php" method="post">
+            <fieldset>
+                <legend><b>NOAR</b></legend>
+                <br>
+                <div class="caixatexto">
+                    <input type="text" name="nomecompleto" id="nome" class="minititulo">
+                    <label for="nome">Nome Completo</label>
+                </div>
+                <BR><BR>
+                <div class="caixatexto">
+                    <input type="text" name="pacienterg" id="nome" class="minititulo">
+                    <label for="nome">RG CPF paciente</label>
+                </div> 
+                <BR><BR>
+  
+                <div class="caixatexto">
+                    <input type="text" name="acompanhante" id="nome" class="minititulo">
+                    <label for="nome">Acompanhante</label>
+                </div> 
+                <BR><BR>
+      
+                <div class="caixatexto">
+                    <input type="text" name="localocorrencia" id="nome" class="minititulo">
+                    <label for="nome">Local da Ocorrencia</label>
+                </div>
+                <BR><BR>
+ 
+                
+                    <div class="caixatexto">
+                        <input type="text" name="nomehospital" id="nome" class="minititulo">
+                        <label for="nome">Nome do Hospital</label>
+                    </div> 
+                    <BR><BR>
+  
+               <P>Sexo</P>  
+               <input type="radio" id="feminino" name="sexo" value="feminino">
+                    <label for="feminino">Feminino</label>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                    <label for="masculino">Masculino</label>
+                
+
+                    <BR><BR>
+                    <div class="caixatexto">
+                        <label for="data_nacimennto"><b>Data de Nacimento</b></label>
+                        <input type="date" name="data_nacimennto" id="data_nacimennto" class="minititulo">
+                        
+                    </div>
+                    <BR><BR>
+                    
+
+                    
+                        <input type="submit" class="inpt" value="CADASTRAR">        
+                    
+                    
+                        
+                    </fieldset>
+        </form>
+    </div>
+</body>
+</html>

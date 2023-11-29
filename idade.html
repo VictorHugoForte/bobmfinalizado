@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo_grande.png" type="image/x-icon">
+    <title>idade do paciente</title>
+    <style>
+    
+
+.btn{
+ text-transform: uppercase;
+ text-decoration: none;
+ color: rgb(216, 35, 35);
+ padding: 10px 30px;
+ border: 1px solid;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+}
+
+  
+ /*carregando*/
+ .loading svg polyline {
+  fill: none;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.loading svg polyline#back {
+  fill: none;
+  stroke: #ff4d5033;
+}
+
+.loading svg polyline#front {
+  fill: none;
+  stroke: #ff4d4f;
+  stroke-dasharray: 48, 144;
+  stroke-dashoffset: 192;
+  animation: dash_682 1.4s linear infinite;
+}
+
+@keyframes dash_682 {
+  72.5% {
+    opacity: 0;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+    
+    </style>
+</head>
+<body>
+    <center>
+        <img src="logo_medicina.png" style="height: 40px;">
+        <h1>O paciente é menor ou maior que 5 anos?</h1>
+      
+<a href="avaliaçãodopacienteMAIORDE5.html" class="btn"> MAIOR</a>
+<a href="avaliacaodopacienteMENORDE5.HTML" class="btn"> MENOR</a>
+<br>
+<a href="queimaduras.html" class="btn">VOLTAR  </a>
+<br> <br> <br> <br> <br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br>
+
+
+<div class="loading">
+    <svg width="64px" height="48px">
+        <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="back"></polyline>
+      <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="front"></polyline>
+    </svg>
+  </div>
+    </center>
+</body>
+</html>
+
+
+
+
+
+
+

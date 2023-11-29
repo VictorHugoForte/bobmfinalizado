@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOMBEIROS</title>
+    <link rel="stylesheet" href="anamnesegestacional.css">
+    <link rel="shortcut icon" href="logo_grande.png" type="image/x-icon">
+    </head>
+
+<body>
+    <div class="box">
+        <form action="anamnesegestacional.php" method="post">
+            <fieldset>
+                <legend><b>NOAR</b></legend>
+                <br>
+                <h3><P>ANAMNESE GESTACIONAL</P></h3>
+                <div class="caixatexto">
+                    <input type="text" name="gestacao" id="nome" class="minititulo">
+                    <label for="nome">PERÍODO DE GESTAÇÃO</label>
+                </div>
+                <h5>FEZ PRÉ-NATAL?</h5>
+                <input type="radio" id="condução" name="prenatal" value="condução">
+                    <label for="condução">SIM</label><input type="radio" id="condução" name="PRÉ-NATAL" value="condução">
+                    <label for="condução">NÃO</label>
+                    <BR>
+                    <BR>    
+                <div class="caixatexto">
+                    <input type="text" name="nomedomedico" id="nome" class="minititulo">
+                    <label for="nome">NOME DO MÉDICO</label>
+                </div>
+                <h5>FEZ PRÉ-NATAL?</h5>
+                <input type="radio" id="condução" name="pre" value="condução">
+                    <label for="condução">SIM</label><input type="radio" id="condução" name="PRÉ-NATAL" value="condução">
+                    <label for="condução">NÃO</label>
+                    <BR>
+                    <BR>
+                <h5>É O PRIMEIRO FILHO?</h5>
+                <input type="radio" id="condução" name="filho" value="condução">
+                    <label for="condução">SIM</label><input type="radio" id="condução" name="FILHO" value="condução">
+                    <label for="condução">NÃO</label>
+                    <BR>
+                    <BR>
+                <div class="caixatexto">
+                    <input type="text" name="quantos" id="nome" class="minititulo">
+                    <label for="nome">QUANTOS?</label>
+                </div>
+                <BR>
+                <div class="caixatexto">
+                    <input type="text" name="iniciouhoras" id="nome" class="minititulo">
+                    <label for="nome">QUE HORAS INICIOU AS CONTRAÇOES</label>
+                </div>
+                <h3><P>TEMPO DE DURAÇÃO</P></h3>
+                <div class="caixatexto">
+                    <input type="text" name="duracao" id="nome" class="minititulo">
+                    <label for="nome">DURAÇÃO</label>
+                </div>
+                <BR>
+                <div class="caixatexto">
+                    <input type="text" name="intervalo" id="nome" class="minititulo">
+                    <label for="nome">INTERVALO</label>
+                </div>
+                <h5>SENTE PREÇÃO NA REGIÃO DO QUADRIL OU VONTADE DE EVACUAR?</h5>
+                <input type="radio" id="condução" name="pressao" value="condução">
+                    <label for="condução">SIM</label><input type="radio" id="condução" name="PREÇÃO" value="condução">
+                    <label for="condução">NÃO</label>
+                    <BR>
+                    <BR>
+                <h5>JÁ HOUVE REPTURA NA BOLSA?</h5>
+                    <input type="radio" id="condução" name="bolsa" value="condução">
+                     <label for="condução">SIM</label><input type="radio" id="condução" name="BOLSA" value="condução">
+                     <label for="condução">NÃO</label>
+                    <BR>
+                    <BR> 
+                <h5>FOI FEITO INSPEÇÃO VISUAL?</h5>
+                    <input type="radio" id="condução" name="visual" value="condução">
+                    <label for="condução">SIM</label><input type="radio" id="condução" name="VISUAL" value="condução">
+                    <label for="condução">NÃO</label>
+                    <BR>
+                    <BR>
+                <h5>PARTO REALIZADO?</h5>
+                    <input type="radio" id="condução" name="partorealizado" value="condução">
+                    <label for="condução">SIM</label><input type="radio" id="condução" name="VISUAL" value="condução">
+                    <label for="condução">NÃO</label>
+                    <BR>
+                    <BR>
+                <h5>SEXO DO BEBE:</h5>
+                    <input type="radio" id="condução" name="sexodobebe" value="condução">
+                    <label for="condução">FEM</label><input type="radio" id="condução" name="BEBE" value="condução">
+                    <label for="condução">MASC</label>
+                    <BR>
+                    <BR>
+                <h5>HORA DE NACIMENTO:</h5>
+                    <input type="time" id="condução" name="hrbebe" value="condução">
+                    <BR>
+                        <BR>
+                <div class="caixatexto">
+                    <input type="text" name="nome" id="nomebebe" class="minititulo">
+                    <label for="nome">NOME DO BEBÊ</label>
+                </div>    
+                    
+                    <BR>
+                    <BR>        
+                        <input type="submit" class="inpt" value="CADASTRAR">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
